@@ -1,0 +1,107 @@
+* {
+    margin: 0; padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+}
+
+nav a {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.items {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+}
+
+.item {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.item-img {
+    height: 64px;
+    padding: 10px 0;
+    display: block;
+    align-self: center;
+}
+
+.item a {
+    font-weight: 700;
+    color: black;
+}
+
+.item a:hover {
+    color: orangered;
+}
+
+.shopping-container {
+    margin: 15px 0;
+    padding: 25px 0;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.shopping-img {
+    margin: auto;
+    width: 90vw;
+}
+
+.shopping-offers h2{
+    margin: 12px 0 10px;
+}
+
+
+.sales-table {
+    width: 90vw;
+    margin: auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 8px;
+    font-size: 1rem;
+    aspect-ratio: auto;
+}
+
+.shopping-offers th {
+    background-color: orangered;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+.shopping-desc {
+    padding: 0 20px;
+    color: grey;
+}
+
+.shopping-desc p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.shopping-desc ul {
+    list-style: inside;
+}
+
+footer {
+    margin: 15px 0 0 0;
+    padding:  22px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
